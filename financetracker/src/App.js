@@ -13,7 +13,7 @@ function App() {
     }). catch(error => console.log(error))
 
   },[]);
-
+//h
 const handleChange= e=>{
   setSearch(e.target.value)
 }
@@ -28,7 +28,15 @@ const filteredCoins = coins.filter(coin => coin.name.toLowerCase(). includes(sea
         </form>
       </div>
       {filteredCoins.map (coin=> {
-      return <Coin key={coin.id} name={coin.name} image={coin.image} symbol={coin.symbol} volume={coin.market_cap} price={coin.current_price}/>;
+      return <Coin key={coin.id}     
+      name={coin.name} 
+      image={coin.image}  
+      symbol={coin.symbol} 
+      marketcap={coin.market_cap} 
+      price={coin.current_price}
+      priceChange={coin.price_change_percentage_24h}
+      volume={coin.total_volume}
+      />;
       
       })}
     </div>
