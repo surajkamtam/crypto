@@ -28,6 +28,11 @@ npm install @material-ui/core
 
 The aim of this project is to build a react application with public API. So various API's were considered involving cricket information, football information, movies information, pokemon information, weather information, etc.. However, cryptocurrency data was used as they did not need to subscribe or create an account for usage. Once the API was chosen then the React documents, API documents and examples were referred for importing the details from the API. Then some components such as cards were taken from the Material-UI. For debugging Youtube and stackoverflow have been used.
 
+## How to Use:
+ The Application has 2 Pages Welcome and Search
+1) Welcome Page has 2 buttons Welcome and Search for user to select from.
+2) Search Page has Fetch data button which user has to click for getting information from the API, then they can use
+search for the required currency information.
 ## Future Work:
 
 Addition of more pages and content in the created application.
