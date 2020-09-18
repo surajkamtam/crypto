@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 import Coin from "./Coin";
 import index from "./index";
+
 import {
   Card,
   CardContent,
@@ -31,7 +32,7 @@ function App() {
   return (
     <div className="coin-app">
       <div className="coin-search">
-        <button onClick={fetchData}></button>
+        <button onClick={fetchData} color="secondary" className="button"> Show Data</button>
         <h1 className="coin-text"> Search a Currency</h1>
         <form>
           <input

@@ -1,10 +1,8 @@
-body {
-  box-sizing: border-box;
-  margin: 0;
+body{
   padding: 10%;
-  font-family: "Times New Roman";
-  background-image: linear-gradient(-225deg, #20032e 0%, rgb(59, 0, 59));
-  color: #ffffff;
+  background-image:  linear-gradient(-225deg, #20032e 0%, rgb(59, 0, 59));
+
+
 }
 
 .coin-app {
@@ -31,6 +29,14 @@ body {
   margin-bottom: 32px;
   text-align: center;
 }
+.page-text {
+  margin-bottom: 32px;
+  text-size-adjust: initial;
+  text-align: center;
+  color: crimson;
+  
+}
+
 .coin-input {
   padding-left: 16px;
   width: 300px;
@@ -60,4 +66,22 @@ body {
 
 .center {
   margin: "auto";
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  margin-top: 30px;
+}
+
+#frontcard {
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  background-image: linear-gradient(-225deg,  #ac32e4 0%,
+  #7918f2 48%,
+  #4801ff 100%);
+  color: white;
+  margin: auto;
+ 
 }

@@ -4,8 +4,10 @@ class first extends Component {
   render() {
     return (
       <div>
-        <h2>Test Page</h2>
+        <h2 className="page-text">Click on search for information about crypto currency.......</h2>
       </div>
+
+     
     );
   }
 }
