@@ -1,7 +1,6 @@
 import React, { useState, useEffect, Component } from "react";
 import axios from "axios";
 import "./App.css";
-import Coin from "./Coin";
 import index from "./index";
 
 import {
