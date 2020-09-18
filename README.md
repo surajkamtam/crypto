@@ -14,9 +14,15 @@ A working React Application has been created with the following features:
 
 
 ## Installation
+```
 npx create-react-app financetracker
+```
+```
 npm install axios
+```
+```
 npm install @material-ui/core
+```
 
 ## Approach Taken:
 
@@ -26,7 +32,7 @@ The aim of this project is to build a react application with public API. So vari
 
 Addition of more pages and content in the created application.
 
-##Additional information
+## Additional information
 Initially, this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
